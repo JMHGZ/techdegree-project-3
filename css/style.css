@@ -154,8 +154,8 @@ select {
 }
 
 #newsletter label {
-  margin-top: 35px;
-  margin-bottom: 10px;
+  margin-top: 15px;
+  margin-bottom: 8px;
   margin-right: 10px;
 }
 
@@ -197,6 +197,7 @@ textarea {
   border-radius: .2em;
   font-size: 20px;
   font-family: inherit;
+  margin-top: 13px;
 }
 
 #button:hover {
