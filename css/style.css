@@ -10,18 +10,12 @@
 
 body {
   font-family: 'Merriweather', serif, arial;
-
   margin: 0;
 }
 
 p {
   font-size: .75em;
   margin: 7px 0 .5em 0;
-}
-
-a {
-  text-decoration: none;
-  color: #fff;
 }
 
 h2,
@@ -71,6 +65,12 @@ textarea {
   text-align: right;
   color: #c0c0c0;
   padding-right: 20px;
+  font-size: 12px;
+}
+
+#state {
+  font-style: italic;
+  color: #c0c0c0;
   font-size: 12px;
 }
 
@@ -198,6 +198,8 @@ textarea {
   font-size: 20px;
   font-family: inherit;
   margin-top: 13px;
+  text-decoration: none;
+  color: #fff;
 }
 
 #button:hover {
@@ -209,4 +211,63 @@ footer {
   font-style: italic;
   color: 	#C0C0C0;
   margin-top: 25px;
+}
+
+
+/* ===== TABLET & DESKTOP ===== */
+
+@media (min-width: 768px) {
+
+    .container {
+      width: 70%;
+      margin: 0 auto;
+    }
+
+    h2 {
+      margin-top: 40px;
+      font-size: 1.25em;
+    }
+
+    #contact-info {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    #contact-info label {
+      display: inline-block;
+      width: 30%;
+      margin: 0 auto;
+      font-size: .90em;
+    }
+
+    #contact-info [type] {
+      width: 68%;
+      justify-content: flex-end;
+    }
+
+    select {
+      width: 68%;
+    }
+
+    #zipcode {
+      max-width: 30%;
+    }
+
+    #newsletter {
+      width: 100%;
+      font-size: 16px;
+    }
+
+    #newsletter {
+      font-size: .9em;
+    }
+
+    textarea {
+      width: 100%;
+    }
+
+
+
+
 }

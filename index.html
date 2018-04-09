@@ -10,13 +10,15 @@
 </head>
 
 <body>
-  <div class="container">
+
 
   <header>
     <div class="header">
       <h1>The Code Review</h1>
     </div>
   </header>
+
+  <div class="container">
 
   <div class="summary">
     <h2>Signup for our newsletter</h2>
@@ -54,7 +56,7 @@
         <div>
            <label for="state">State</label>
             <select id="state" name="user-state">
-                 <option value="AL">--</option>
+                <option value="" disabled selected>Choose State</option>
                  <option value="AL">Alabama</option>
                  <option value="AK">Alaska</option>
                  <option value="AZ">Arizona</option>
@@ -121,7 +123,7 @@
     <fieldset id="newsletter">
       <legend>Newsletter</legend>
       <div>
-        <label for="checkboxes">Select the newsletter you would like to receive</label>
+        <label>Select the newsletter you would like to receive</label>
           <div>
             <input type="checkbox" id="html-checkbox" name="html-news">HTML News
           </div>
@@ -133,7 +135,7 @@
           </div>
       </div>
       <div>
-        <label for="radio-button">Newsletter format</label>
+        <label>Newsletter format</label>
         <div>
           <input type="radio" id="rb-html" name="format">HTML
         </div>
@@ -148,7 +150,7 @@
 
       <div>
         <label for="button"></label>
-        <button id="button"><a href="#">Sign Up</a></button>
+          <button id="button">Sign Up</button>
       </div>
     </fieldset>
 
